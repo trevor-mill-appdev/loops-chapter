@@ -18,4 +18,8 @@
 # 20
 
 p "Enter a number:"
+number = gets.to_i
 
+10.times do |table|
+  p (table + 1) * number
+end
