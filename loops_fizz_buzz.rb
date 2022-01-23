@@ -7,7 +7,7 @@
 
 number = 1
 
-while number < 100
+while number < 101
   if number % 3 == 0 && number % 5 == 0
     p "FizzBuzz"
   elsif number % 3 == 0
