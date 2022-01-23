@@ -14,3 +14,12 @@
 # "apple is 5 letters long!"
 
 p "Enter a word:"
+word = gets.chomp
+letters = word.split("")
+
+iter = 0
+while iter < letters.length
+  iter = iter + 1
+  p iter
+end
+p "#{word} is #{iter} letters long!"
